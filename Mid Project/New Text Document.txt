@@ -1,0 +1,37 @@
+<option value="Display"></option>
+                    <option value="Mother Board"></option>
+                    <option value="RAM"></option>
+                    <option value="Storage"></option>
+                    <option value="Graphics Card"></option>
+                    <option value="Casing"></option>
+                    <option value="Power Supply"></option>
+                    <option value="Accessories"></option>
+                    <option value=""></option>  
+
+
+<option value="3D Animation & Special Effects Software"></option>
+                    <option value="Operating System"></option>
+                    <option value="Security Firewall"></option>
+                    <option value="VPN"></option>
+                    <option value="Acounting Toolkit"></option>
+                    <option value="Server"></option>
+                    <option value="Graphics Software"></option>
+                    <option value="3D Design Software"></option>
+                    <option value="Photo Editor"></option>
+                    <option value="Video Editor"></option>
+
+
+
+ <option value="bike"></option>
+                    <option value="Cycle"></option>
+
+                    <optgroup label="Wearing="></optgroup>
+                    <option value="Tops"></option>
+                    <option value="Trowser"></option>
+
+                    <optgroup label="fashion Items="></optgroup>
+                    <option value="Watch"></option>
+                    <option value="goggles"></option>
+
+                    <optgroup label="Home Decorator"></optgroup>
+                    <option value="Show piece"></option>
