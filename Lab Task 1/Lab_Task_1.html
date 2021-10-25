@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <centre>
+	<meta charset="utf-8">
+	<title>Donor Information</title>
+  <style>
+    #myheader{
+      padding-left : 187px;
+      text-align:left ;
+       font-size:12px;
+    }
+     #myheader2{
+      padding-left : 180px;
+      text-align:left ;
+       font-size:12px;
+    }
+
+
+    #donation{
+      padding-left:103px; font-size:12px;
+    }
+
+    .class1{
+      text-align: right;
+      padding-right: 1500px;
+      font-size:12px;height: 100%;
+  margin: 0;
+    }
+    .class2{
+      text-align: left;
+      padding-left: 166px; font-size:12px;
+    }
+     .class3{
+      text-align: left;
+      padding-left: 164px; font-size:12px;
+    }
+    #recurringdonation{
+      padding-left: 0.0px; font-size:12px;
+    }
+    .fontsize{
+      font-size: 80%; font-size:12px;
+    }
+    .space{
+      padding-left: 136px; font-size:12px;
+    }
+    .space2{
+      padding-left: 138px; font-size:12px;
+    }
+    .space3
+    {
+      padding-left:  84px; font-size:12px;
+    }
+    .space4
+    {
+      padding-left:  135px; font-size:12px;
+    }
+    .space5
+    {
+      padding-left:  117px; font-size:12px;
+    }
+    #pos1{
+      margin-left: -102px ; font-size:12px;
+    }
+    #pos2{
+      margin-left: -49px; font-size:12px;
+    }
+      #pos3{
+      margin-left: -23px; font-size:12px;
+    }
+    }
+      #pos4{
+      margin-left: -21px; font-size:12px;
+    }
+    #pos5{
+      margin-left: -60px ; font-size:12px;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+	<h1 style="color:Tomato;
+	font-size:110%;">Donor Information</h1>
+  <form >
+    <div class="class1">
+    <label for="fname">  First name:</label> <input  type="text" id="fname" placeholder="first name" name="fname" value="">
+</div>
+    
+     <div class="class1">
+  <label for="lname" >Last name:</label> <input type="text" placeholder="last name" id="lname" name="lname" value="">
+</div>
+ <div class="class1">
+   <label for="company">Company:</label> <input type="text" id="company" name="company" value=""> </div>
+    <div class="class1">
+     <label for="address 1">Address 1:</label> <input type="text" id="address 1" name="address 1" value=""> </div> 
+      <div class="class1">
+       <label for="address 2">Address 2:</label> 
+       <input type="text" id="address 2" name="address 2" value=""> </div> 
+   <div class="class1">
+  <label for="city"> City: </label>
+  <input  type="text" name="city" value="">
+</div>
+
+    <div id=myheader2>
+      <label  for="state"> State:</label>
+      <select  name="state" ><option value="ny">New York</option>
+        <option value="wa">Washington</option>
+        <option value="al">Albama</option>
+        <option value="az">Arizona</option>
+        <option value="dc">District of Columbia</option>
+        <option value="nj">New Jersey</option>
+        <option value="mo">Missouri</option>
+
+      </select> </div>
+
+ <div class="class1">
+  <label for="zipcode">Zip Code:</label> <input type="text" id="zipcode" name="Zip Code" value=""> </div> 
+  <div class="class3">
+    <label for="country"> Country:</label>
+    <select name="country">
+    <!--<datalist id="country">-->
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="USA">United states of America</option>
+        </select>
+      </div>
+<div class="class1">
+  <label for="phone"> Phone:</label>
+  <input type="text" name="phone" id="phone" value=""> </div> 
+  <div class=class1>
+    <label for="fax"> Fax: </label>
+    <input type="text" id="fax" name="fax" value=""> </div> 
+<div class="class1">
+    <label for="email"> Email:</label>
+    <input type="text" name="email" id="email" value="" placeholder="@gmail.com"> </div> <br>
+
+    <div id="donation">
+      <label for="donation amount">
+       Donation Amount:<br>
+     <span  class="fontsize">(Check a button or type in ammount)</span> 
+      <input type="radio" name="donation amount" id="donation amount" >None
+       <input type="radio" name="donation amount" id="donation amount" >$50
+        <input type="radio" name="donation amount" id="donation amount" >$75
+         <input type="radio" name="donation amount" id="donation amount" >$100
+          <input type="radio" name="donation amount" id="donation amount" >$125
+           <input type="radio" name="donation amount" id="donation amount" >$200
+            <input type="radio" name="donation amount" id="donation amount" >Other <br>
+            <div class="class1">
+            <label for="donation amount">Other Amount:</label>
+            <input type="text" name="donation ammunt" id="donation amount"
+            value=""></div><br>
+            <div >
+              <label for="donation amount"> Recurring donation:</label>
+              <input type="checkbox" name="donation amount" id="donation amount" value="">I am interestec in giving on a regular basis. <br> <span class="fontsize"> (check if yes)</span> </div>
+              <div id="pos4">
+              <label for="donation amount">Monthly Credit Card $<span> <input type="text" name="donation amount" maxlength="4" size="4"></span>for <span><input type="text" name="donation amount" maxlength="4" size="4">Months</span> <span class="fontsize"></div>
+             <!--(check if yes)</span> </div><br>-->
+
+  <div id="pos1">
+ <h2 style="color:Tomato;
+  font-size:140%;">Honorarium and Memorial Donation Information</h2></div>
+  <form>
+    <div id="pos3">
+      <label for="donation amount">I want to make this donation</label>
+      <input type="radio" name="donation amount">to honor <br></div>
+      <div class="space5">
+      <input type="radio" name="donation amount" >in memory </div>
+
+      <div class="class1">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value=""></div>
+         <div id="pos3">
+        <label for="name">Acknowledge Donation to</label>
+         <input type="text" name="ack" id="ack" value=""></div>
+
+          <div class="class1">
+     <label for="address ">Address  </label> <input type="text" id="address " name="address " value=""> </div> 
+      <div class="class1">
+  <label for="city"> City: </label>
+  <input  type="text" name="city" value="">
+</div>
+  <div class="space3">
+      <label  for="state"> State:</label>
+      <select  name="state" ><option value="ny">New York</option>
+        <option value="wa">Washington</option>
+        <option value="al">Albama</option>
+        <option value="az">Arizona</option>
+        <option value="dc">District of Columbia</option>
+        <option value="nj">New Jersey</option>
+        <option value="mo">Missouri</option>
+
+      </select> </div>
+
+ <div class="class1">
+  <label for="zipcode">Zip</label> <input type="text" id="zipcode" name="Zip Code" value=""> </div> 
+
+  <div id="pos1">
+<h3 style="color:Tomato;
+  font-size:140%;">Additional Information</h3></div>
+<div id="pos1">
+<p>Please enter your name,company or organization as you would like to appear in our publications:</p></div>
+
+<div class="class1">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value=""></div>
+
+<div id="pos1">
+        <input type="checkbox" name="gift"> <label for="gift">I would like my gift to remain anonymous. </label> </div>
+
+<div id="pos1">
+<input type="checkbox" name="gift"> <label for="gift"> My employer offers a matching gift program.I will mail the matching gift form. </label>  </div>
+
+
+<div id="pos1">
+<input type="checkbox" name="gift"> <label for="gift"> Please save the cost of acknowledge this gift by not mailing a thank you. </label>  </div>
+
+<div id="pos2" >
+  <label for="comment">Comments:</label></div><div id="pos2"><span  class="fontsize">(Please type any questions or feedback here)</span> </div>
+  <div id="pos2">
+  <textarea cols="50" rows="2"> </textarea>
+</div>
+<div id="pos2" >
+              <label for="donation amount"> How may we contact you?</label>
+         <div class="space4" ><input type="checkbox" name="donation amount" id="donation amount" value="">E-mail</div>
+             <div class="space4"><input type="checkbox" name="donation amount" id="donation amount" value="">Telephone</div>
+             <div id="pos5">
+            <label for="news">I'ld like to receive newsletters and informations about special events by- </label>  </div>
+<div class="space4"><input type="checkbox" name="donation amount" id="donation amount" value="">E-mail</div>
+<div class="class1">
+    <input type="reset" value="Reset">
+  <input type="submit" value="Submit"></div>
+  </form>
+
+
+</body>
+</html>
